@@ -1,26 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apresentação Robótica</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Maycon Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Webloja do Bruno</h1>
+    <header class="header">
+        <div class="logo">Maycon Store</div>
+        <div class="search-container">
+        <input type="text" id="search-bar" placeholder="Busque um produto..." oninput="searchProducts()">
     </header>
 
-    <main>
-        <section id="products" class="product-grid">
-            <!-- Os produtos serão gerados aqui -->
-        </section>
-        
+    <main class="product-container">
+        <div class="product-card" data-name="Produto 1">
+            <img src="https://flamengo.vteximg.com.br/arquivos/ids/170301-473-473/A_0114_00100676405-removebg-preview.png?v=638574305525500000"
+            <h2>Camisa Flamengo Manto Braziline</h2>
+            <p>R$ 139,99</p>
+            <p>Frete: R$ 20,00</p>
+            <button>Comprar</button>
 
-    <footer>
-        <p>&copy; 2024 Loja Virtual. Todos os direitos reservados.</p>
+        </div>
+        
+        </body>
+
+        </div>
+        <div class="product-card" data-name="Produto 2">
+            <img src="https://flamengo.vteximg.com.br/arquivos/ids/171232-473-473/132745-1.jpg?v=638659047154030000"
+            <h2>Mochila Esportiva Flamengo Clube Classic - UN</h2>
+            <p>R$ 239,99</p>
+            <p>Frete: R$ 30,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product-card" data-name="Produto 3">
+            <img src="https://flamengo.vteximg.com.br/arquivos/ids/169473-473-473/y7an9j1i-Photoroom.png?v=638460411299230000"
+            <h2>Calça Flamengo Treino e Viagem Adidas 2024</h2>
+            <p>R$349,99</p>
+            <p>Frete: R$ 30,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product-card" data-name="Produto 4">
+            <img src="https://flamengo.vteximg.com.br/arquivos/ids/169929-473-473/IP8191_1_APPAREL_Photography_Front-View_white.jpg?v=638536694656870000"
+            <h2>Moletom Flamengo Capuz DNA Adidas 2024</h2>
+            <p>R$ 499,99</p>
+            <p>Frete: R$ 40,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product-card" data-name="Produto 5">
+            <img src="https://flamengo.vteximg.com.br/arquivos/ids/170735-473-473/IP8190_1_APPAREL_Photography_Front-View_white.jpg?v=638611547043100000"
+            <h2>Short Flamengo DNA Branco Adidas 2024</h2>
+            <p>R$ 299,99</p>
+            <p>Frete: R$ 30,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product-card" data-name="Produto 6">
+            <img src="https://flamengo.vteximg.com.br/arquivos/ids/171612-473-473/128712-1.png?v=638687400099870000"
+            <h2>Chinelo Slide Flamengo - Preto com Detalhes Dourados</h2>
+            <p>R$ 179,99</p>
+            <p>Frete: R$ 20,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product-card" data-name="Produto 7">
+            <img src="https://flamengo.vteximg.com.br/arquivos/ids/170674-473-473/FLA0405_PRETO_VERMELHO_2-removebg-preview.png?v=638602311581000000"
+            <h2>Chinelo Flamengo Manto 1 2024 Preto Vermelho</h2>
+            <p>Por: R$ 89,99</p>
+            <p>Frete: R$ 25,00</p>
+            <button>Comprar</button>
+        </div>
+        <div class="product-card" data-name="Produto 8">
+            <img src="https://flamengo.vteximg.com.br/arquivos/ids/170880-473-473/IT3819_1_APPAREL_Photography_Front-View_white.jpg?v=638623691616430000"
+            <h2>Camisa Flamengo Imperadores 2 Braziline</h2>
+            <p>Por: R$ 219,90 </p>
+            <p>Frete: R$ 30,00</p>
+            <button>Comprar</button>
+        </div>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Maycon Store. Todos os direitos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
 </html>
+
+
