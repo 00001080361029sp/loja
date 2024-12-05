@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Minha Loja Virtual</h1>
+    </header>
+
+    <main>
+        <section id="products" class="product-grid">
+            <!-- Os produtos serão gerados aqui -->
+        </section>
+
+        <section id="cart" class="cart">
+            <h2>Carrinho</h2>
+            <div id="cart-items">
+                <!-- Itens do carrinho aparecem aqui -->
+            </div>
+            <div class="cart-summary">
+                <p><strong>Total:</strong> R$ <span id="cart-total">0.00</span></p>
+                <button id="checkout-btn" disabled>Finalizar Compra</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja Virtual. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
